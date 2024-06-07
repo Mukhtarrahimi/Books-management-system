@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'vazir';
+    src: url(./assest/fonts/Vazir-Bold.woff);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(7,52,177,0.3),rgba(3, 10, 70, 1)), url(./assest/img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
