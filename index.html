@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" href="./assest/img/logo.png" />
@@ -17,7 +17,46 @@
     <title>Books management system</title>
   </head>
   <body>
-
+    <div class="container">
+      <header class="header">
+        <h1 class="title">لیست کتاب ها</h1>
+        <form id="search-book" class="search-book">
+          <i class="fa fa-search"></i>
+          <input type="text" placeholder="جستجوی کتاب..." />
+        </form>
+      </header>
+      <div class="main">
+        <h2 class="recent-book">کتاب های اخیر</h2>
+        <ul>
+            <li>
+              <span class="name">اثر مرکب</span>
+              <span class="delete">حذف</span>
+            </li>
+            <li>
+              <span class="name">خودت را به فنا نده</span>
+              <span class="delete">حذف</span>
+            </li>
+            <li>
+              <span class="name">قدر ت عادت</span>
+              <span class="delete">حذف</span>
+            </li>
+            <li>
+              <span class="name">قلعه حیوانات </span>
+              <span class="delete">حذف</span>
+            </li>
+          </ul>
+        </div>
+        <form id="hide">
+          <label for="">مخفی کردن کتاب ها</label>
+          <input type="checkbox" />
+        </form>
+        <div class="clear"></div>
+        <form id="add-book">
+          <input type="text" placeholder="Add a book..." />
+          <button class="btn">اضافه</button>
+        </form>
+      </div>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>
