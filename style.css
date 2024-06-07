@@ -27,6 +27,8 @@ body {
   background-position: center;
   background-size: cover;
   font-family: "vazir", sans-serif;
+  margin: 40px auto;
+  letter-spacing: 1px;
 }
 
 .container {
@@ -110,4 +112,10 @@ body {
 }
 .main .delete:hover {
   background: #d90000;
+}
+
+.hide label{
+   margin-right: 15px;
+  color: rgb(51, 51, 51);
+
 }
