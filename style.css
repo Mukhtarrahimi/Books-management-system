@@ -2,6 +2,10 @@
     font-family: 'vazir';
     src: url(./assest/fonts/Vazir-Bold.woff);
 }
+@font-face {
+    font-family: 'lalezar';
+    src: url(./assest/fonts/Lalezar.ttf);
+}
 *{
     margin: 0;
     padding: 0;
@@ -16,4 +20,49 @@ body{
     background: linear-gradient(rgba(7,52,177,0.3),rgba(3, 10, 70, 1)), url(./assest/img/bg.jpg);
     background-position: center;
     background-size: cover;
+    font-family: 'vazir', sans-serif;
+}
+
+.container{
+    width: 70%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.header{
+    width: 100%;
+    background-color: rgb(229, 229, 229);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.search-book{
+    background-color: white;
+    display: flex;
+    border-radius: 5px;
+    width: 50%;
+    padding: 8px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-top: 5px;
+}
+.search-book i{
+    color: gray;
+}
+.search-book input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-right: 8px;
+    font-family: 'vazir', sans-serif;
+    width: 100%;
 }
